@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:padding="0dp"
+    android:scrollbarStyle="insideOverlay" >
+
+    <View
+        android:id="@+id/manage_dimmer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#88222222" />
+
+    <ImageView
+        android:id="@+id/manage_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#ff0000"
+        android:contentDescription="@string/manage_frame_desc"
+        android:padding="0dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="none"
+        android:visibility="gone" />
+
+    <!-- Works for image button: -->
+
+    <WebView
+        android:id="@+id/manage_webview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="0dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="none" />
+
+    <ImageButton
+        android:id="@+id/manage_close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/manage_webview"
+        android:layout_toRightOf="@+id/manage_webview"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/close_button"
+        android:scaleType="center"
+        android:src="@drawable/close_btn" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppSponsorSDK</string>
+    <string name="close_button">Close Button</string>
+	<string name="manage_frame_desc">Frame</string>
+</resources>
