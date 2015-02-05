@@ -7,7 +7,7 @@ Sign up for an account at http://appsponsor.com
 ## Requirements
 
 ## Integration Guide
-- https://github.com/manage/android-sdk/wiki/Integration-Guide
+- https://my.manage.com/publisher/guides/android/
 
 ## Change Log
 - https://github.com/manage/android-sdk/blob/master/CHANGELOG.md
